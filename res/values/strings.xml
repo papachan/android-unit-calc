@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tapssimetro</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_input">Unidades</string>
+    <string name="label_details">Adicionales</string>
+    <string name="label_nightly">Nocturno / Festivo</string>
+    <string name="label_hours">8 pm a 5 am</string>
+    <string name="label_airport">Aeropuerto</string>
+    <string name="label_terminal">Terminal</string>
+    <string name="label_calculate">Calcular</string>
+    <string name="label_total">Total a pagar:</string>
+    <string name="total_sum_text">Total a pagar:</string>
+</resources>

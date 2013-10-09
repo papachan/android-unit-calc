@@ -1,0 +1,114 @@
+{
+    "services": [
+        {
+            "yellowTaxi": {
+                "rates": {
+                    "startCharge": 1800,
+                    "minumumFare": 3500,
+                    "chargeDistance": 100,
+                    "chargeTime": 30,
+                    "chargeUnitPrice": 70,
+                    "chargeDistanceUnits": "m",
+                    "nightHolidayCharge": 1700,
+                    "homePickUp": 600
+                },
+                "specialRates": {
+                    "airport": [
+                        {
+                            "southWestCorner": {
+                                "lat": 4.684646,
+                                "lon": -74.149059
+                            },
+                            "northEastCorner": {
+                                "lat": 4.702867,
+                                "lon": -74.122109
+                            },
+                            "startCharge": 3500
+                        }
+                    ],
+                    "terminal": [
+                        {
+                            "southWestCorner": {
+                                "lat": 4.597183,
+                                "lon": -74.177372
+                            },
+                            "northEastCorner": {
+                                "lat": 4.598049,
+                                "lon": -74.17558
+                            },
+                            "startCharge": 500
+                        },
+                        {
+                            "southWestCorner": {
+                                "lat": 4.651102,
+                                "lon": -74.114404
+                            },
+                            "northEastCorner": {
+                                "lat": 4.652192,
+                                "lon": -74.112827
+                            },
+                            "startCharge": 500
+                        },
+                        {
+                            "southWestCorner": {
+                                "lat": 4.652641,
+                                "lon": -74.116411
+                            },
+                            "northEastCorner": {
+                                "lat": 4.65586,
+                                "lon": -74.114469
+                            },
+                            "startCharge": 500
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "whiteTaxi": {
+                "rates": {
+                    "startCharge": 9000,
+                    "chargeDistance": 3000,
+                    "chargeUnitPrice": 3000,
+                    "chargeDistanceUnits": "m"
+                },
+                "specialRates": {
+                    "airport": [
+                        {
+                            "southWestCorner": {
+                                "lat": 4.684646,
+                                "lon": -74.149059
+                            },
+                            "northEastCorner": {
+                                "lat": 4.702867,
+                                "lon": -74.122109
+                            },
+                            "startCharge": 27000
+                        }
+                    ],
+                    "Chia": {
+                        "startCharge": 60000
+                    },
+                    "Cajicá": {
+                        "startCharge": 60000
+                    },
+                    "La Calera": {
+                        "startCharge": 60000
+                    },
+                    "Mosquera": {
+                        "startCharge": 60000
+                    },
+                    "Soacha": {
+                        "startCharge": 50000
+                    },
+                    "Zipaquira": {
+                        "startCharge": 65000
+                    },
+                    "Sopó": {
+                        "startCharge": 65000
+                    }
+                }
+            }
+        }
+    ]
+}
