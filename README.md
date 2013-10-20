@@ -1,0 +1,1 @@
+A simple Android exercise for students who want to enter the world of Android Development
